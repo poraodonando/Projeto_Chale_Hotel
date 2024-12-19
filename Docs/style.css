@@ -142,7 +142,7 @@ ul#navecacao{
     padding: 15px 0px;
 }
 
-#area_lateral{
+#area-lateral{
     
     float: right;
     width: 50%;
@@ -194,12 +194,21 @@ Formatações da área lateral
     
 }
 
-#beneficios li p{
+#beneficios li a p{
+    color: #000;
     font-size: 0.8em;
     
 }
 
 #beneficios li a h3{
-    font-size: 1.2em;
+    font-size: 1.1em;
+    color: #615b2d;
+    padding: 5px 0;
+    background: url(../Assets/Imagens/ornamento.png) no-repeat center right;
     
+}
+
+#beneficios li:hover{
+    background: #dbcd87;
+
 }
